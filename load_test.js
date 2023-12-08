@@ -4,7 +4,7 @@ import http from "k6/http";
 export const options = {
 	// ramp-up time
 	stages: [
-		// goees from 0 to 100 users
+		// goes from 0 to 100 users
 		{
 			duration: "5m",
 			target: 100,
